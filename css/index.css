@@ -1,0 +1,408 @@
+body {
+  background: #f3f3f3;
+}
+.subjectBox {
+  margin-bottom: 65px;
+}
+.subjectNav {
+  width: 1100px;
+  height: 38px;
+  margin: 0 auto;
+  padding: 2px 0 0 0 ;
+  background: url(../img/vip-bgs.png) 0 -74px repeat-x;
+}
+.subjectNav ul {
+  display: flex;
+  padding-left: 44px;
+}
+.subjectNav ul li {
+  color: #fff;
+  width: 115px;
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
+  font-size: 14px;
+  cursor: pointer;
+  position: relative;
+}
+.subjectNav ul li a {
+  width: 115px;
+  height: 38px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.window {
+  width: 1100px;
+  height: 440px;
+  margin: 0 auto;
+  position: relative;
+}
+.window .right {
+  width: 43px;
+  height: 43px;
+  position: absolute;
+  top: 198px;
+  right: 55px;
+  z-index: 9999;
+  background: url(../img/vip-tips.png);
+  background-position: -43px -50px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.window .left {
+  width: 43px;
+  height: 43px;
+  position: absolute;
+  top: 198px;
+  left: 55px;
+  z-index: 9999;
+  background: url(../img/vip-tips.png);
+  background-position: 0 -50px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.window .right:hover {
+  opacity: 1;
+}
+.window .left:hover {
+  opacity: 1;
+}
+.windowLb {
+  position: relative;
+}
+.windowLb li {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.windowLb li a {
+  width: 1100px;
+  height: 370px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+  z-index: 9999;
+}
+.onca {
+  background: #000;
+}
+.onca a {
+  border: 2px solid #fff;
+}
+.onca div {
+  display: none;
+}
+.caroucal {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  width: 1100px;
+  height: 70px;
+  background: url(../img/vip-tips.png) 0 -100px no-repeat;
+}
+.caroucal ul {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px 0 10px 8px;
+}
+.caroucal ul li {
+  float: left;
+  width: 68px;
+  height: 50px;
+  position: relative;
+  box-sizing: border-box;
+  margin-right: 11px;
+  z-index: 1111;
+  background-origin: padding-box;
+}
+.caroucal ul li img {
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  z-index: 11;
+  opacity: 1;
+}
+.caroucal ul a {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 64px;
+  height: 46px;
+}
+.caroucal ul div {
+  width: 66px;
+  height: 48px;
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  z-index: 9999;
+  background: #000;
+  opacity: 0.3;
+}
+.title {
+  width: 1100px;
+  margin: 30px auto 15px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 24px;
+  color: #000;
+}
+.ad {
+  width: 1060px;
+  padding: 0 20px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+.ad .adBox {
+  width: 1060px;
+  height: 111px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  z-index: 999;
+}
+.ad .adBox ul {
+  position: absolute;
+  width: 10000px;
+  left: 0px;
+}
+.ad li {
+  width: 200px;
+  height: 111px;
+  float: left;
+  margin-right: 15px;
+}
+.ad li:nth-child(1) {
+  background: url(../img/vip-powers.png) 0 0 no-repeat;
+}
+.ad li:nth-child(2) {
+  background: url(../img/vip-powers.png) -200px 0 no-repeat;
+}
+.ad li:nth-child(3) {
+  background: url(../img/vip-powers.png) -400px 0 no-repeat;
+}
+.ad li:nth-child(4) {
+  background: url(../img/vip-powers.png) -600px 0 no-repeat;
+}
+.ad li:nth-child(5) {
+  background: url(../img/vip-powers.png) -800px 0 no-repeat;
+}
+.ad li:nth-child(6) {
+  background: url(../img/vip-powers.png) -1000px 0 no-repeat;
+}
+.ad li:nth-child(7) {
+  background: url(../img/vip-powers.png) -1200px 0 no-repeat;
+}
+.ad li:nth-child(8) {
+  background: url(../img/vip-powers.png) -1400px 0 no-repeat;
+}
+.ad li:nth-child(9) {
+  background: url(../img/vip-powers.png) -1600px 0 no-repeat;
+}
+.ad li:nth-child(10) {
+  background: url(../img/vip-powers.png) -1800px 0 no-repeat;
+}
+.adLeft {
+  width: 15px;
+  height: 26px;
+  background: url(../img/vip-bgs.png) 0 -124px no-repeat;
+  position: absolute;
+  top: 42px;
+  left: 0px;
+  cursor: pointer;
+}
+.adRight {
+  width: 15px;
+  height: 26px;
+  background: url(../img/vip-bgs.png) -15px -124px no-repeat;
+  position: absolute;
+  top: 42px;
+  right: 0px;
+  cursor: pointer;
+}
+.banner {
+  width: 1100px;
+  height: 80px;
+  margin: 30px   auto ;
+}
+.Recommend,
+.hotMovie {
+  width: 1100px;
+  margin: 0 auto ;
+  margin-bottom: 30px;
+  position: relative;
+}
+.Recommend .first {
+  height: 24px;
+  width: 100px;
+  text-indent: -999px;
+  margin: 0 0 15px 0;
+  background: url(../img/vip-logo.png) 0 -24px no-repeat;
+}
+.Recommend .moreMovie {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.Recommend .moreMovie a {
+  display: block;
+  float: right;
+  font-size: 12px;
+  font-family: "宋体";
+  color: #000;
+  text-decoration: none;
+  line-height: 20px;
+  margin-top: 7px;
+  margin-right: 5px;
+}
+.Recommend .moreMovie a:hover {
+  color: #06c;
+}
+.Recommend ul {
+  display: flex;
+}
+.Recommend ul li {
+  position: relative;
+  float: left;
+  width: 205px;
+  height: 337px;
+  margin-right: 18px;
+  margin-bottom: 30px;
+}
+.Recommend ul li > a {
+  position: absolute;
+  left: 0 ;
+  top: 0;
+  display: block;
+  width: 205px;
+  height: 287px;
+}
+.Recommend ul img {
+  width: 205px;
+  height: 287px;
+}
+.leftUp {
+  position: absolute;
+  width: 75px;
+  top: 7px;
+  left: 10px;
+  display: block;
+  height: 18px;
+  background: url(../img/vip-tips.png) 0px -20px no-repeat;
+  overflow: hidden;
+}
+.leftUp_2 {
+  position: absolute;
+  width: 75px;
+  top: 7px;
+  left: 10px;
+  display: block;
+  height: 18px;
+  background: url(../img/vip-tips.png) -110px 0px no-repeat;
+  overflow: hidden;
+}
+.rightBottom {
+  position: absolute;
+  right: 7px;
+  bottom: 57px;
+  width: 28px;
+  height: 18px;
+  line-height: 18px;
+  font-family: '宋体';
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+}
+.synopsis a {
+  display: block;
+  font-size: 14px;
+  width: auto;
+  height: 20px;
+  overflow: hidden;
+  color: #000;
+  margin-top: 3px;
+  line-height: 20px;
+}
+.synopsis a:hover {
+  color: #0b68c8;
+}
+.synopsis p {
+  font-size: 12px;
+  color: #999;
+  width: 168px;
+  height: 18px;
+  line-height: 18px;
+}
+.score {
+  position: absolute;
+  bottom: 16px;
+  right: 0;
+  color: #f60;
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  text-align: right;
+  font-family: Georgia;
+  font-size: 16px;
+}
+.score span {
+  font-size: 20px;
+}
+.hotMovie .first_2 {
+  height: 24px;
+  width: 100px;
+  text-indent: -999px;
+  margin: 0 0 15px 0;
+  background: url(../img/vip-logo.png) 0 -48px no-repeat;
+}
+.hotMovie .moreMovie {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.hotMovie .moreMovie a {
+  display: block;
+  float: right;
+  font-size: 12px;
+  font-family: "宋体";
+  color: #000;
+  text-decoration: none;
+  line-height: 20px;
+  margin-top: 7px;
+  margin-right: 5px;
+}
+.hotMovie .moreMovie a:hover {
+  color: #06c;
+}
+.hotMovie ul {
+  display: flex;
+}
+.hotMovie ul li {
+  position: relative;
+  float: left;
+  width: 205px;
+  height: 337px;
+  margin-right: 18px;
+  margin-bottom: 30px;
+}
+.hotMovie ul li > a {
+  position: absolute;
+  left: 0 ;
+  top: 0;
+  display: block;
+  width: 205px;
+  height: 287px;
+}
+.hotMovie ul img {
+  width: 205px;
+  height: 287px;
+}

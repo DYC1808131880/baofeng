@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>西游伏妖篇</title>
+    <link rel="icon" href="img/playfavicon.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/paly.css">
+
+
+</head>
+<body>
+    <!-- 头部标题栏 -->
+    <div class="topNav">
+        <div class="topNavBox">
+            <div class="logo">
+                <a href="#"></a>
+            </div>
+            <div class="topNavHead">
+                <a href="#" class="navIndex">首页</a><a href="#" class="navMenu" id="navMenu">导航</a>
+            </div>
+            <div class="searchBox">
+                <form action="" >
+                    <input type="text" class="search" value="老师·好">
+                    <input type="submit" class="searchBtn">
+                </form>
+                <div class="searchBg"></div>
+            </div>
+            <div class="topNavUser chearfix">
+                <ul>
+                    <li class="Seen" id="seen">看过</li>
+                    <li class="like" id="like">收藏</li>
+                    <li class="download" id="download">客户端</li>
+                    <li class="user"><a href="#" id="log">登录</a>/<a href="#" id="reg">注册</a> </li>
+                </ul>   
+
+                <!-- 看过弹出 -->
+                <div class="seenBox" id="seenBox">
+                    <div class="seenBoxicon"></div>
+                    <div class="seenBoxmain">
+                        看过
+                        <div class="history">
+                            <span>清空记录</span>
+                        </div>
+                        
+                    </div>
+                    <div class="historymain">
+                        <p>今天</p>
+                        <ul id="historyUl" class="chearfix">
+                            <li>
+                                <a href="#">西游伏妖篇</a>
+                                <a href="#" class="continue">继续看</a>
+                                <span></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 喜欢弹出 -->
+                <div class="likeBox" id="likeBox">
+                    <div class="likeBoxicon"></div>
+                    <div class="likeBoxmain">
+                            您的列表中暂时没有内容
+                    </div>
+                    <div class="likemain">
+                        
+                    </div>
+                    <a href="">您喜欢的影片在这里</a>
+                </div>
+
+                <!-- 下载弹出 -->
+                <div class="dowBox" id="dowBox">
+                    <div class="dowBoxicon"></div>
+                    <a href="#" class="comp">电脑端</a>
+                    <a href="#" class="phe">移动端</a>
+                </div>
+            </div>
+
+            <!-- 导航弹出 -->
+            <div class="topMeau" id="topMeau">
+                <div class="topMeauBox">
+                    <ul class="list01 chearfix">
+                        <li><a href="#" target="_blank">剧集</a></li>
+                        <li><a href="#" target="_blank">电影</a></li>
+                        <li><a href="#" target="_blank">动漫</a></li>
+                        <li><a href="#" target="_blank">综艺</a></li>
+                        <li><a href="#" target="_blank">体育</a></li>
+                        <li><a href="#" target="_blank">教育</a></li>
+                        <li><a href="#" target="_blank">记录</a></li>
+                        <li><a href="#" target="_blank">亲子</a></li>
+                        <li><a href="#" target="_blank">生活</a></li>
+                        <li><a href="#" target="_blank">全景</a></li>
+                    </ul>
+                    <ul class="list02 chearfix">
+                        <li><a href="#" target="_blank" class="on">暴风十年</a></li>
+                        <li><a href="#" target="_blank">摇滚</a></li>
+                        <li><a href="#" target="_blank">奥地利</a></li>
+                        <li><a href="#" target="_blank">公益</a></li>
+                    </ul>
+                    <ul class="list03 chearfix">
+                        <li>
+                            <a href="#" target="_blank">商城</a>
+                        </li>
+                    </ul>
+                    <div class="navDownload1">
+                        <a href=""></a>
+                    </div>
+                    <div class="navDownload2">
+                        <a href=""></a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- 电影播放 -->
+    <div class="filmWindow">
+        <div class="filmWindowBox">
+            <div class="filmTop">
+                <h2><a href="#" target="_blank">西游伏妖篇</a></h2>
+                <p>
+                    <a href="#" target="_blank">电影</a><span>></span><a href="#" target="_blank">内地</a><span>></span><a href="#" target="_blank">动作</a>/<a href="#" target="_blank">喜剧</a>/<a href="#" target="_blank">魔幻</a><span>></span>西游伏妖篇
+                </p>
+            </div>
+            <div class="filmWindowMain chearfix">
+                <div class="filmPlay">
+                    <video src="" width="860px" height="525px"  controls="controls"></video>
+                    <div class="palyFoot">
+                        <!-- 点赞收藏 -->
+                        <ul class="chearfix">
+                            
+                            <li>
+                                <div class="zan" id="zan">
+                                   2555 
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cai" id="cai">
+                                       1111
+                                </div>
+                            </li>
+                            <li>
+                                <div class="love" id="love">
+                                        收藏
+                                </div>
+                               
+                            </li>
+                        </ul>
+                        <!-- 下载分享 -->
+                        <dl class="chearfix">
+                            <dd class="xia" id="xia">
+                                下载
+                            </dd>
+                            <dd class="fen" id="fen">
+                                分享
+                            </dd>
+                            <dd class="ju" id="ju">
+                                剧透
+                            </dd>
+                        </dl>
+                        <!-- 下载弹窗 -->
+                        <div class="dowWindow" id="dowWindow">
+                            <div class="dowWindowTop">
+                                <p>系统未在您电脑上检测到暴风影音客户端，请安装成功后使用下载功能。</p>
+                                <a href="#" target="_blank">马上安装</a>
+                                <p class="second">若您已安装客户端，却无法下载，说明当前浏览器不支持，您可以在客户端上查找并下载此视频。</p>
+                                
+                            </div>
+                            <div class="dowWindowFoot">
+                                <div class="dowWindowFootTitle">
+                                    <p>请选择要下载的清晰度及格式</p>
+                                    <div id="colse"></div>
+                                </div>
+                                <div class="dowWindowFootL">
+                                    <div class="leftTop chearfix">
+                                        <div>
+
+                                        </div>
+                                        <h4>电脑观看</h4>
+                                        <p>暴风播放器专属播放</p>
+                                    </div>
+                                    <div class="leftMain">
+                                        <ul>
+                                            <li>480P 标清下载</li>
+                                            <li>720P 高清下载</li>
+                                            <li>1080P 超清下载</li>
+                                        </ul>
+                                    </div>
+                                    <div class="leftFoot">
+                                        <ul>
+                                            <li>未下载：0</li>
+                                            <li>已下载：0</li>
+                                            <li>查看我的下载</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="dowWindowFootR">
+                                    <div>
+                                        <div></div>
+                                        <h4>手机观看</h4>
+                                        <p>下载手机客户端</p>
+                                    </div>
+                                    <div>
+                                        <div class="pad"></div>
+                                        <h4 class="padh4">平板电脑观看</h4>
+                                        <p>下载Pad客户端</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 分享弹窗 -->
+                        <div class="fxWindow" id="fxWindow">
+                            <div class="colse2" id="colse2">
+
+                            </div>
+                            <div>
+                                <ul>
+                                    <li class="fxQQ"></li>
+                                    <li class="fxKJ"></li>
+                                    <li class="fxXL"></li>
+                                    <li class="fxTX"></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- 剧透 -->
+                        <div class="jtWindow" id="jtWindow">
+                            <div class="colse3" id="colse3">
+                            </div>
+                            <div class="jtMain">
+                                <h4>西游伏妖篇<span>7.6</span></h4>
+                                <ul>
+                                    <li class="chearfix">
+                                        <div>
+                                            <span>地区：</span><a href="#" target="_blank">内地</a>
+                                            2017
+                                        </div>
+                                        <div>
+                                            <span>类型：</span><a href="#" target="_blank">动作</a>
+                                            <a href="#" target="_blank">喜剧</a>
+                                            <a href="#" target="_blank">魔幻</a>
+                                        </div>
+                                    </li>
+                                    <li class="chearfix">
+                                        <div>
+                                            <span>导演：</span><a href="#" target="_blank">徐克</a>
+                                        </div>
+                                        <div>
+                                            <span>主演：</span><a href="#" target="_blank">吴亦凡</a>
+                                            <a href="#" target="_blank">林更新</a>
+                                            <a href="#" target="_blank">林允</a>
+                                        </div>
+                                    </li>
+                                    <li class="chearfix">
+                                        <div class="filmSynopsis">
+                                            <span>简介：</span>作为《西游降魔篇》的后继故事，唐三藏在上集感化了杀死段小姐的齐天大圣，并收其为徒后，带着孙悟空、猪八戒及沙僧，一行四人踏上西天取经之旅，路途凶险，除魔伏妖，师徒四人也在取经的过程中有个各自的成长与改变。 
+                                        </div>
+                                        
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="filmWindowRight">
+                    <dl class="menuTab">
+                        <dt class="on2"><a href="#" target="_blank" id="menubtn1">选集</a></dt>
+                        <dt><a href="#" target="_blank" id="menubtn2">商品</a></dt>
+                    </dl>
+                    <div class="menuList" id="menuList">
+                        <div class="menuListContent" id="menuListContent" style="height: 800px;top:0px;">
+                            <div class="filmComment">
+                                <p>
+                                    「该片自然是对传统西游传奇的又一次解构，是大家能够想得到的周式幽默，再者一些包袱抖得很到位，这些源于台词的包袱，常能让人回味一笑，在这些幽默的基础之上，影片的很多情节都挺生动。」
+                                </p>
+                                <p style="text-align: right; line-height: 16px;">
+                                        来自：时光网评论
+                                </p>
+                            </div>
+                            <div class="filmRecommend">
+                                <p>
+                                        精彩推荐：
+                                </p>
+                                <ul>
+                                    <li>
+                                        <a href="#" target="_blank">战狼2,硬汉吴京血战非洲</a>
+                                        <div class="icon1"></div>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">战狼2,硬汉吴京血战非洲</a>
+                                        <div class="icon1"></div>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">战狼2,硬汉吴京血战非洲</a>
+                                        <div class="icon1"></div>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">战狼2,硬汉吴京血战非洲</a>
+                                        <div class="icon1"></div>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">战狼2,硬汉吴京血战非洲</a>
+                                        <div class="icon1"></div>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">战狼2,硬汉吴京血战非洲</a>
+                                        <div class="icon1"></div>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">战狼2,硬汉吴京血战非洲</a>
+                                        <div class="icon1"></div>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">战狼2,硬汉吴京血战非洲</a>
+                                        <div class="icon1"></div>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">战狼2,硬汉吴京血战非洲</a>
+                                        <div class="icon1"></div>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">战狼2,硬汉吴京血战非洲</a>
+                                        <div class="icon1"></div>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">战狼2,硬汉吴京血战非洲</a>
+                                        <div class="icon1"></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="menuListScroll" id="menuListScroll">
+                            <div class="scrollBtn" id="scrollBtn" style="top:0px">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menushop" id="menushop">
+
+                    </div>
+                    <div class="menuFoot">
+                        <a href="#" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- 广告 -->
+    <div class="playAd">
+        <div class="playAdLeft"></div>
+        <div class="playAdRight">
+            <img src="img/380_90_1509098031.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- 主体 -->
+    <div class="playMain chearfix">
+        <div class="playMainLeft chearfix">
+            <div class="mainTitle">
+                猜你喜欢
+            </div>
+            <ul id="likeFilm">
+
+            </ul>
+            <div class="hotBox">
+                <div class="mainTitle title1">
+                        热门推荐
+                    <a href="#" target="_blank">更多>></a>
+                </div>
+                <ul class="list1" id="hotFilm">
+    
+                </ul>
+            </div>
+            <div class="listBox">
+                <div class="mainTitle title2">电影榜<a href="#" target="_blank">更多>></a></div>
+                <ul id="listBox">
+
+                </ul>
+            </div>
+
+        </div>
+        <div class="playMainRight">
+            <div class="mainTitle">
+                评论<span id="commentNum"></span>
+                <em>还可以输入<b id="txtNum">140</b>字</em>
+            </div>
+            <textarea name="" id="txt" maxlength="140">快来吐个槽吧！</textarea>
+            <div class="playSubmit">
+                <div class="playSubmitCode chearfix">
+                    <div id="playcode">
+                        <input type="text" id="codeDown" value="请输入验证码">
+                        <div class="codeBox" id="codeBox"></div>
+                        <span id="newcode">换一个</span>
+                    </div>
+
+                    <a href="#" target="_blank" id="combtn">发表评论</a>
+                </div>
+                <div class="phone chearfix">
+                    评论需绑定手机号<a href="#">立即绑定手机</a>
+                </div>
+            </div>
+
+            <div class="commentMenu chearfix" id="discuss">
+                <i href="#" class="on3">按热度</i>
+                <i href="#">按最新</i>
+            </div>
+            <div class="commentMain" id="commentMain">
+                <ul>
+                    <li><div class="userMessage"><img src="img/user_1.jpg" alt=""><p class="userName">385_7666_4</p><p class="userTime">2017-04-14 23:03</p></div><p>说不好看的 眼睛瞎啊 多好看啊</p><div class="support"><a href="#">举报</a><span><a href=""></a>996</span></div></li>
+                </ul>
+            </div>
+            <div class="page" id="page">
+                <input type="text" value="1" id="inp1">
+                /<span>3</span>
+                <button id="btn1">确定</button>
+                <div>
+                    <button id="btn2">上一页</button>
+                    <button id="btn3">下一页</button>
+                </div>
+   
+            </div>
+        </div>
+    </div>
+    
+    <!-- 广告 -->
+    <div class="playAd2">
+        <div class="playAd2Main">
+
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <div class="playfoot">
+        <div class="playfootBox">
+
+                <ul>
+                    <li><a href="#" target="">投资者关系</a></li>|<li><a href="#" target="">加入暴风</a></li>|<li><a href="#" target="">联系我们</a></li>|<li><a href="#" target="">暴风无线产品</a></li>|<li><a href="#" target="">暴风实验室</a></li>|<li><a href="#" target="">更新历史</a></li>|<li><a href="#" target="">关于我们</a></li>
+                </ul>
+                <p>暴风集团股份有限公司 联系电话：010-62309066（工作日 9:30--21:30）</p>
+                <ul>
+                    <li><a href="#" target="">京ICP证070364号</a></li>
+                    <li><a href="#" target="">京网文【2014】0921-221号</a></li>
+                    <li><a href="#" target="">互联网药品信息服务资格证书（京）-非经营性-2018-0219</a></li>
+                    <li><a href="#" target="">广播电视节目制作经营许可证：(京)字第01166号</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#" target=""><img src="img/police.png" alt="">京公网安备 11010802020226号</a></li>
+                    <li><a href="#" target="">京ICP备08011423号</a></li>
+                    <li><a href="#" target="">信息网络传播视听许可证号：0108298</a></li>
+                    <li><a href="#" target="">营业性演出许可证</a></li>
+                    <li><a href="#" target="">网络出版服务许可证</a></li>
+                    <li><a href="#" target="">营业执照</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#" target="">海淀警方预防电信诈骗宣传</a></li>
+                    <li><a href="#" target="">首都网络安全日</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#" target=""><img src="img/jubao.jpg" alt="">中国互联网举报中心</a></li>
+                    <li><a href="#" target="">网络举报APP下载</a></li>
+                    <li><a href="#" target="">网上有害信息举报专区</a></li>
+                    <li><a href="#" target="">网上暴恐有害信息举报</a></li>
+                </ul>
+                <p>违法和不良信息举报电话：010-62309839 &nbsp; 举报邮箱：baofengjubao@baofeng.com</p>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="goTop" id="go">
+            <a href="" id="goTop"></a>
+            <a href="#" id="goFeedback" target="_blank"></a>
+    </div>
+    
+    <div id="loginWindow">
+        <div class="loginBox">
+            <div class="login" id="login">
+                <h3></h3>
+                <div class="user">
+                   <div class="userImg"></div>
+                   <input type="text" placeholder="输入手机/邮箱/用户名">
+                </div>
+                <div class="pwd">
+                   <div class="pwdImg"></div><input type="password" placeholder="输入密码">
+                </div>
+                <div class="remember">
+                    <div id="checked" class="checked"></div><p>记住我</p>
+                </div>
+                <a href="#">找回密码</a>              
+                <div class="submit">
+                    登录
+                </div>
+                <div class="quesiton">
+                    <a href="#" id="btn4">手机验证码登录></a>
+                </div>
+
+            </div>
+            <div class="more">
+                <ul>
+                    <li><h5>使用合作账号一键登录</h5></li>
+                    <li><a href="#" class="qq"></a></li>
+                    <li><a href="#" class="xl"></a></li>
+                    <li><a href="#" class="wx"></a></li>
+                    <li><a href="#" class="zfb"></a></li>
+                    <li>没有暴风账号？<span>立即注册</span></li>
+                </ul>
+                <a href="#" target="_blank">遇到问题</a>
+            </div>
+            <div class="colseLogin" id="colseLogin"></div>
+        </div>
+    </div>
+</body>
+    <script src="js/public.js"></script>
+    <script src="js/paly.js"></script>
+</html>
